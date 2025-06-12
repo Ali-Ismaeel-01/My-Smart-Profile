@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <link rel="icon" href="images/favicon.webp" type="image/png" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="/"
+                    ><img
+                        src="images/My Smart Profile Logo.webp"
+                        alt="My Smart Profile Logo"
+                        class="img-fluid navbar-brand-logo"
+                /></a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"
+                                ><i class="fas fa-home"></i> Home</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="about.html"
+                                ><i class="fas fa-user"></i> About Us</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="Contact.html"
+                                ><i class="fas fa-phone"></i> Contact</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="portfolio.html"
+                                ><i class="fas fa-book"></i> Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="fun.html"
+                                ><i class="fas fa-gamepad"></i> Fun</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="smart.html"
+                                ><i class="fas fa-robot"></i> Smart</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="portfolio-title my-5">
+                <h1 class=""></h1>
+                <h1 class="page-title text-center">Portfolio</h1>
+                <p class="page-subtitle">
+                    Explore my projects and see how I bring ideas to life
+                    through technology
+                </p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 updated" id="dynamicCard">
+                        <img
+                            src="images/Joseph Shmoe Ceramics - Project 1.jpg"
+                            class="card-img-top border border-primary border-1"
+                            id="cardImage"
+                            alt="Joseph Shmoe Ceramics - Project 1"
+                        />
+                        <div class="card-body">
+                            <h5
+                                class="card-title portfolio-title subtitle text-dark"
+                                id="cardTitle"
+                            >
+                                Joseph Shmoe | Ceramics
+                            </h5>
+                            <p
+                                id="cardText"
+                                class="mb-4 portfolio-title subtitle"
+                            >
+                                (Artist Portfolio / Gallery)
+                            </p>
+                            <p class="card-text" id="cardDesc">
+                                A minimalist, elegant website designed to
+                                showcase handcrafted ceramics. The layout
+                                emphasizes clean lines, ample whitespace, and
+                                high-resolution photography to highlight the
+                                textures and forms of each piece. Built with a
+                                focus on visual storytelling and smooth
+                                navigation, the site lets the artwork speak for
+                                itself while providing a seamless user
+                                experience.
+                            </p>
+                            <button
+                                class="btn btn-primary btn-sm"
+                                id="changeProjectBtn"
+                                onclick="update()"
+                            >
+                                Change Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img
+                            src="images/Swipe – Payments Infrastructure - Project 2.jpg"
+                            class="card-img-top border border-primary border-1"
+                            alt="Swipe – Payments Infrastructure - Project 2"
+                        />
+                        <div class="card-body">
+                            <h5
+                                class="card-title portfolio-title subtitle text-dark"
+                            >
+                                Swipe – Payments Infrastructure
+                            </h5>
+                            <p class="mb-4 portfolio-title subtitle">
+                                (SaaS Landing Page)
+                            </p>
+                            <p>
+                                <a
+                                    class="btn btn-outline-light text-dark border-secondary btn-sm"
+                                    data-bs-toggle="collapse"
+                                    href="#project2Details"
+                                    role="button"
+                                    aria-controls="project2Details"
+                                >
+                                    View Details
+                                </a>
+                            </p>
+                            <div class="collapse" id="project2Details">
+                                <div class="card card-body">
+                                    A vibrant, modern landing page for a fintech
+                                    platform. This design features bold
+                                    typography, gradient backgrounds, and a
+                                    compelling product mockup to capture
+                                    attention. The layout is fully responsive
+                                    and optimized for both marketing impact and
+                                    clarity of information.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img
+                            src="images/Shortly – Link Shortener - Project 3.jpg"
+                            class="card-img-top border border-primary border-1"
+                            alt="Shortly – Link Shortener - Project 3s"
+                        />
+                        <div class="card-body">
+                            <h5
+                                class="card-title portfolio-title subtitle text-dark"
+                            >
+                                Shortly – Link Shortener
+                            </h5>
+                            <p class="mb-4 portfolio-title subtitle">
+                                (Web App Landing Page)
+                            </p>
+
+                            <p>
+                                <a
+                                    class="btn btn-outline-light text-dark border-secondary btn-sm"
+                                    data-bs-toggle="collapse"
+                                    href="#project3Details"
+                                    role="button"
+                                    aria-controls="project3Details"
+                                >
+                                    View Details
+                                </a>
+                            </p>
+                            <div class="collapse" id="project3Details">
+                                <div class="card card-body">
+                                    A clean, friendly interface for a URL
+                                    shortening service. This design balances
+                                    simplicity with functionality, using
+                                    illustrations and rounded elements to create
+                                    a welcoming, modern aesthetic.Responsive and
+                                    conversion-focused.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-white text-center py-4 mt-5">
+            <div class="container">
+                <p>© 2025 My Smart Profile | Created for WP1</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

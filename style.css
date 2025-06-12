@@ -1,0 +1,293 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cascadia Mono", sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+}
+
+footer {
+    background-color: #012341;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 0;
+    top: 0;
+    z-index: 1000;
+    background: linear-gradient(to right, #004e92, #000428);
+}
+
+.navbar-brand-logo {
+    width: auto;
+    height: 100px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    transition: transform 0.1s ease-in-out;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    transform: scale(1.15);
+}
+
+/* Home Page */
+.welcome-section,
+.portfolio-title {
+    font-family: "Edu VIC WA NT Hand";
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 2.3rem;
+    word-spacing: 1rem;
+    padding-bottom: 1rem;
+    color: #0041a2;
+}
+
+.page-subtitle,
+.subtitle {
+    font-size: 1.3rem;
+    word-spacing: 0.3rem;
+    color: #6c757d;
+}
+
+.welcome-section {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.carousel-image {
+    height: 40rem;
+    width: auto;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: brightness(0) invert(0);
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    transform: scale(1.3);
+    transition: all 0.15s ease-in-out;
+}
+
+/* About Page */
+.theme-switcher {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.theme-switcher:hover {
+    transform: scale(1.1);
+}
+
+.dark-switcher {
+    background-color: #012b50;
+    color: white;
+}
+
+.light-switcher {
+    background-color: white;
+    color: #012b50;
+}
+
+.about-section h1 {
+    font-family: "Edu VIC WA NT Hand";
+    font-weight: 700;
+    font-size: 2.3rem;
+    word-spacing: 1rem;
+    padding-bottom: 1rem;
+    color: #0041a2;
+}
+
+.about-section h2 {
+    padding-bottom: 10px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.bio,
+.hobbies,
+.goals {
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.hobbies ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    padding: 0px 300px;
+}
+
+#showMoreBtn {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #004e92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+#showMoreBtn:hover {
+    transform: scale(1.06);
+}
+
+#more-content {
+    margin-top: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dark-mode {
+    background-color: #212529;
+}
+
+.about-section-dark-mode {
+    background-color: #292e33;
+    color: #f8f9facc;
+}
+
+/* Contact Page */
+.contact-section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.contact-section h2 {
+    font-family: "Edu VIC WA NT Hand";
+    font-weight: 700;
+    font-size: 2.3rem;
+    word-spacing: 1rem;
+    padding-bottom: 1rem;
+    color: #0041a2;
+}
+
+/* Fun Page */
+.fun-title {
+    font-family: "Edu VIC WA NT Hand";
+    word-spacing: 0.3rem;
+}
+
+#imageContainer {
+    height: 525px;
+}
+
+#fadeImage {
+    max-height: 500px;
+}
+
+/* Smart Page */
+.cards-container {
+    max-width: 1100px;
+}
+.bounce-effect {
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.color-box {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #198754;
+}
+
+.animate-box {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.dark-mode-smart {
+    background-color: #212529;
+}
+
+.dark-mode-smart .page-subtitle {
+    color: #ddd;
+}
+
+.dark-mode-smart .card {
+    background-color: #292e33;
+    color: #ddd;
+}
+
+.dark-mode-smart #nameInput {
+    background-color: #6c757d;
+    color: floralwhite;
+}
+
+.dark-mode-smart #nameInput::placeholder {
+    color: #ddd;
+}
+
+.dark-mode-smart .greeting-box {
+    color: #292e33
+}
+
+.dark-mode-smart .cardHead {
+    color: #292e33;
+}

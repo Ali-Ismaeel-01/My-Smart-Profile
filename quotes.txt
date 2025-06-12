@@ -1,0 +1,27 @@
+"Death twitches my ear. live, he says I'm coming." | Virgil
+"Programming isn't about what you know; it's about what you can figure out." | Chris Pine
+"Any fool can write code that a computer can understand. Good programmers write code that humans can understand." | Martin Fowler
+"First, solve the problem. Then, write the code." | John Johnson
+"Sometimes it's better to leave something alone, to pause, and that's very true of programming." | Joyce Wheeler
+"Code is like humor. When you have to explain it, it's bad." | Cory House
+"Simplicity is the soul of efficiency." | Austin Freeman
+"Controlling complexity is the essence of computer programming." | Brian Kernighan
+"There are two ways to write error-free programs; only the third works." | Alan Perlis
+"The function of good software is to make the complex appear to be simple." | Grady Booch
+"Programs must be written for people to read, and only incidentally for machines to execute." | Harold Abelson
+"Truth can only be found in one place: the code." | Robert C. Martin
+"That's the thing about people who think they hate computers. What they really hate is lousy programmers." | Larry Niven
+"Any sufficiently advanced technology is indistinguishable from magic." | Arthur C. Clarke
+"Good code is its own best documentation." | Steve McConnell
+"Make it work, make it right, make it fast." | Kent Beck
+"Programming is the art of algorithm design and the craft of debugging errant code." | Ellen Ullman
+"Life is what happens when you're busy making other plans." | John Lennon
+"The purpose of life is a life of purpose." | Robert Byrne
+"Life is short, and it's up to you to make it sweet." | Sarah Louise Delany
+"Life is really simple, but we insist on making it complicated." | Confucius
+"Life is a journey that must be traveled no matter how bad the roads and accommodations." | Oliver Goldsmith
+"Life is a succession of lessons which must be lived to be understood." | Ralph Waldo Emerson
+"Life is made of ever so many partings welded together." | Charles Dickens
+"Life is trying things to see if they work." | Ray Bradbury
+"Life is like riding a bicycle. To keep your balance, you must keep moving." | Albert Einstein
+"Life is either a daring adventure or nothing at all." | Helen Keller

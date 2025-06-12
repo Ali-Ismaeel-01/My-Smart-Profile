@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Page</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <link rel="icon" href="images/favicon.webp" type="image/png" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="/"
+                    ><img
+                        src="images/My Smart Profile Logo.webp"
+                        alt="My Smart Profile Logo"
+                        class="img-fluid navbar-brand-logo"
+                /></a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"
+                                ><i class="fas fa-home"></i> Home</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="about.html"
+                                ><i class="fas fa-user"></i> About Us</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="Contact.html"
+                                ><i class="fas fa-phone"></i> Contact</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="portfolio.html"
+                                ><i class="fas fa-book"></i> Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="fun.html"
+                                ><i class="fas fa-gamepad"></i> Fun</a
+                            >
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="smart.html"
+                                ><i class="fas fa-robot"></i> Smart</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="contact-section">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        class="form-control"
+                        required
+                    />
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        class="form-control"
+                        required
+                    />
+                </div>
+
+                <div class="mb-4">
+                    <label for="age" class="form-label">Age</label>
+                    <input
+                        type="number"
+                        id="age"
+                        class="form-control"
+                        required
+                        min="12"
+                        max="100"
+                    />
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label">Gender</label>
+                    <div
+                        class="d-flex justify-content-center align-items-center gap-5"
+                    >
+                        <div>
+                            <input
+                                type="radio"
+                                id="male"
+                                name="gender"
+                                value="Male"
+                                required
+                            />
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input
+                                type="radio"
+                                id="female"
+                                name="gender"
+                                value="Female"
+                            />
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label for="language" class="form-label"
+                        >Favorite Language</label
+                    >
+                    <select id="language" class="form-control" required>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="C++">C++</option>
+                        <option value="HTML/CSS">HTML/CSS</option>
+                        <option value="HTML/CSS">Java</option>
+                        <option value="HTML/CSS">C#</option>
+                        <option value="HTML/CSS">R</option>
+                    </select>
+                </div>
+
+                <div class="mb-4">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                        id="message"
+                        class="form-control"
+                        rows="4"
+                        required
+                    ></textarea>
+                </div>
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </section>
+        <footer class="text-white text-center py-4 mt-5">
+            <div class="container">
+                <p>© 2025 My Smart Profile | Created for WP1</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
