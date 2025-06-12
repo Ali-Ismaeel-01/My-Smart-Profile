@@ -382,6 +382,12 @@ footer {
     .hobbies,
     .goals {
         padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    #about-section-id h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
     }
     .theme-switcher {
         position: fixed;
@@ -389,8 +395,8 @@ footer {
         right: 20px;
         top: auto;
         z-index: 2000;
-        width: 44px;
-        height: 44px;
+        width: 60px;
+        height: 60px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
 
