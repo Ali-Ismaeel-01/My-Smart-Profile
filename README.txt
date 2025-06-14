@@ -12,7 +12,7 @@ Pages and Features
 - **About Us (about.html):**
   Provides a personal overview, including a short biography, a list of hobbies, and personal goals. Features interactive content such as a "Show More" button to reveal additional information about long-term ambitions. Styled with Bootstrap and custom CSS for a modern, responsive look.
 
-- **Contact (Contact.html):**
+- **Contact (contact.html):**
   A contact form where users can submit their name, email, age, gender, favorite programming language, and a message. Includes form validation and a modern, responsive design.
 
 - **Portfolio (portfolio.html):**
