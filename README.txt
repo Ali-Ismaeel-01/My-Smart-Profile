@@ -9,7 +9,7 @@ Pages and Features
 - **Home (index.html):**
   The landing page welcoming visitors, featuring a carousel of images and a brief introduction to the site.
 
-- **About Us (about.html):**
+- **About Me (about.html):**
   Provides a personal overview, including a short biography, a list of hobbies, and personal goals. Features interactive content such as a "Show More" button to reveal additional information about long-term ambitions. Styled with Bootstrap and custom CSS for a modern, responsive look.
 
 - **Contact (contact.html):**
