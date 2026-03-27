@@ -12,7 +12,7 @@ Welcome to my personal portfolio website — a modern, interactive space where c
 
 ## 📖 Table of Contents
 
-- [🚀 Live Preview](#-live-preview)
+- [🌐 Live Demo](#-live-demo)
 - [📂 Pages & Features](#-pages--features)
   - [🏠 Home](#-home-indexhtml)
   - [👤 About Me](#-about-me-abouthtml)
@@ -25,9 +25,9 @@ Welcome to my personal portfolio website — a modern, interactive space where c
 
 ---
 
-## 🚀 Live Preview
+## 🌐 Live Demo
 
-> Open `index.html` in your browser to start exploring the site.
+🔗 **Visit the website:** [my-smart-profile-01.netlify.app](https://my-smart-profile-01.netlify.app/)
 
 ---
 
